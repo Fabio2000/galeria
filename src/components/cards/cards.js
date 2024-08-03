@@ -1,35 +1,109 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './cards.css';
-import fevereiro from '../../images/fevereiro.jpeg'
+import fevereiro from '../../images/fevereiro.jpeg';
+import marco from '../../images/marco.jpeg';
+import abril from '../../images/abril.jpeg';
+import maio from '../../images/maio.jpeg';
+import junho from '../../images/junho.jpeg';
+import julho from '../../images/julho.jpeg';
+
 
 export default function Card() {
     return (
         <section>
             <div className="container text-center">
                 <div className="row justify-content-center">
-                    <div className="col-sm-4 col-md-4 col-lg-4">
-                        <div class="clearfix">
-                            <card>
-                                <img src={fevereiro} class="col-md-6 float-md-end mb-3 ms-md-3" alt="..." />
-                            </card>
+                    <div className="col-sm-6 col-md-6 col-lg-12">
+                        <div className="polaroid-card">
+                            <img src={fevereiro} className="card-img-top" alt="..." />
+                            <div className="overlay">
+                                <div className="overlay-content">
+                                    <p>Essa foto foi na primeira vez que eu te disse eu te amo e primeira vez que te dei flores, ai estavamos na Centauro</p>
+                                    <audio controls>
+                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div className="polaroid-caption">Nosso primeiro mês, mas antes do dia 27/02</div>
                         </div>
                     </div>
-                    {/* <div className="col-sm-4 col-md-4 col-lg-4">
-            Card 2
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4">
-            Card 3
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4">
-            Card 4
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4">
-            Card 5
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4">
-            Card 6
-          </div> */}
+                    <div className="col-sm-6 col-md-6 col-lg-12">
+                        <div className="polaroid-card">
+                            <img src={marco} className="card-img-top" alt="..." />
+                            <div className="overlay">
+                                <div className="overlay-content">
+                                    <p>Este mês foi muito especial, comemos no shopping, demos muitas risadas, alegria, fofocas, o mês da lily ♡ </p>
+                                    <audio controls>
+                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div className="polaroid-caption">Março/2024 um mês fechado com a mulher da minha vida</div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-12">
+                        <div className="polaroid-card">
+                            <img src={abril} className="card-img-top" alt="..." />
+                            <div className="overlay">
+                                <div className="overlay-content">
+                                    <p>Avançamos uma etapa importante neste mês, fizemos nossa primeira viagem, eu ajudei na churrasqueira com seu pai, ganhei mais a confiança dos familiares, mais um mês feliz e repleto de alegrias</p>
+                                    <audio controls>
+                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div className="polaroid-caption">Nossa primeira viagem juntos, mais um mês marcante Abril/2023</div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-12">
+                        <div className="polaroid-card">
+                            <img src={maio} className="card-img-top" alt="..." />
+                            <div className="overlay">
+                                <div className="overlay-content">
+                                    <p>Outro mês com nossos testes de convivencia dando certo, com muito sorrio, felicidade, com presentes lindos, felicidades lindas ♡</p>
+                                    <audio controls>
+                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div className="polaroid-caption">Oque marca muito esse Mês é minha linda camisa ♡ Maio/2024</div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-12">
+                        <div className="polaroid-card">
+                            <img src={junho} className="card-img-top" alt="..." />
+                            <div className="overlay">
+                                <div className="overlay-content">
+                                    <p>Texto no verso</p>
+                                    <audio controls>
+                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div className="polaroid-caption">Caption here</div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-12">
+                        <div className="polaroid-card">
+                            <img src={julho} className="card-img-top" alt="..." />
+                            <div className="overlay">
+                                <div className="overlay-content">
+                                    <p>Texto no verso</p>
+                                    <audio controls>
+                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </div>
+                            <div className="polaroid-caption">Caption here</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
