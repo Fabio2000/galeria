@@ -107,8 +107,5 @@ export default function Card() {
                 </div>
             </div>
         </section>
-        <TESTE>
-            
-        </TESTE>
     );
 }
