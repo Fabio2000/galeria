@@ -8,6 +8,7 @@ import maio from '../../images/maio.jpeg';
 import junho from '../../images/junho.jpeg';
 import julho from '../../images/julho.jpeg';
 import Lover from '../../audios/lover.mp3'
+import marcoo from '../../audios/02_2024.mp3'
 
 export default function Card() {
     return (
@@ -36,7 +37,7 @@ export default function Card() {
                                 <div className="overlay-content">
                                     <p>Este mês foi muito especial, comemos no shopping, demos muitas risadas, alegria, fofocas, o mês da lily ♡ </p>
                                     <audio controls>
-                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        <source src={marcoo} type="audio/mpeg" />
                                         Your browser does not support the audio element.
                                     </audio>
                                 </div>
