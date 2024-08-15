@@ -9,6 +9,11 @@ import junho from '../../images/junho.jpeg';
 import julho from '../../images/julho.jpeg';
 import Lover from '../../audios/lover.mp3'
 import marcoo from '../../audios/02_2024.mp3'
+import JulhoAudio from '../../audios/JulhoAudio.mp3'
+import MaioAudio from '../../audios/MaioAudio.mp3'
+import JunhoAudio from '../../audios/junhoAudio.mp3'
+import AbrilAudio from '../../audios/abrilAudio.mp3'
+
 
 export default function Card() {
     return (
@@ -52,7 +57,7 @@ export default function Card() {
                                 <div className="overlay-content">
                                     <p>Avançamos uma etapa importante neste mês, fizemos nossa primeira viagem, eu ajudei na churrasqueira com seu pai, ganhei mais a confiança dos familiares, mais um mês feliz e repleto de alegrias</p>
                                     <audio controls>
-                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        <source src={AbrilAudio} type="audio/mpeg" />
                                         Your browser does not support the audio element.
                                     </audio>
                                 </div>
@@ -67,7 +72,7 @@ export default function Card() {
                                 <div className="overlay-content">
                                     <p>Outro mês com nossos testes de convivencia dando certo, com muito sorrio, felicidade, com presentes lindos, felicidades lindas ♡</p>
                                     <audio controls>
-                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        <source src={MaioAudio} type="audio/mpeg" />
                                         Your browser does not support the audio element.
                                     </audio>
                                 </div>
@@ -82,7 +87,7 @@ export default function Card() {
                                 <div className="overlay-content">
                                     <p>Essa foto foi muito especial para mim, eu amei muito esse dia,nosso primeiro dia dos namorados juntos, em um lugar legal com uma pessoa especial.</p>
                                     <audio controls>
-                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        <source src={JunhoAudio} type="audio/mpeg" />
                                         Your browser does not support the audio element.
                                     </audio>
                                 </div>
@@ -97,7 +102,7 @@ export default function Card() {
                                 <div className="overlay-content">
                                     <p>Todas as fotos são muito especiais, essa aqui foi um dia lindo que vc trouxe mais cor para ele, estava com a minha Mãe e vc em um lugar que pra mim não tinha tanta importancia, mas você trouxe uma COR linda para o local . Eu te amo muito!</p>
                                     <audio controls>
-                                        <source src="path_to_audio_file.mp3" type="audio/mpeg" />
+                                        <source src={JulhoAudio} type="audio/mpeg" />
                                         Your browser does not support the audio element.
                                     </audio>
                                 </div>
